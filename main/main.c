@@ -1,5 +1,3 @@
-#define LOG_LOCAL_LEVEL ESP_LOG_VERBOSE
-// set the log verbosity to max 
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -7,6 +5,8 @@
 #include "esp_log.h"
 #include "esp_err.h"
 
+#define LOG_LOCAL_LEVEL ESP_LOG_VERBOSE
+// set the log verbosity to max 
 #define GPIO19_PIN_SEL 0x80000
 // GPIO pin selection takes in a unsigned 64 bit integer
 // and the index of the bits that are on determine the pins selecter
