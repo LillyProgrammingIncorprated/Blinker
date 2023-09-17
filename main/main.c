@@ -1,4 +1,5 @@
 #define LOG_LOCAL_LEVEL ESP_LOG_VERBOSE
+// set the log verbosity to max 
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
